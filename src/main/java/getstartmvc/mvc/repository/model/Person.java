@@ -1,9 +1,5 @@
 package getstartmvc.mvc.repository.model;
 
-import org.hibernate.validator.constraints.Length;
-
-import javax.validation.constraints.NotEmpty;
-
 public class Person {
     int id;
     String name;
