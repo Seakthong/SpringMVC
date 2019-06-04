@@ -62,7 +62,6 @@ public class PersonController {
 
     @GetMapping("/model")
     public String model(Model model){
-
         model.addAttribute("id",101);
         return "index";
     }
@@ -88,7 +87,6 @@ public class PersonController {
 
     @PutMapping("/uploadfile")
     public String fileForm(){
-
         return "fileform";
     }
 
